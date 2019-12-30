@@ -7,7 +7,8 @@ import {LargeScreen, SmallScreen} from "./ScreenSizes";
 import './contact.css';
 
 const ContactPage = () => {
-    const phoneRegex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+
+    const phoneRegex = /.*[a-zA-Z].*/;
 
     const name = useInput('שם');
     const email = useInput('דוא״ל');
@@ -18,9 +19,9 @@ const ContactPage = () => {
     const [messageSent, setMessageSent] = useState(0);
 
     const validate = () => {
-        if (phoneRegex.test(phoneNumber.value)&&city.value.length>1)
-            return undefined;
-        return true;
+        if (phoneRegex.test(phoneNumber.value) || city.value.length === 0 || phoneNumber.value.length === 0)
+            return true;
+        return undefined;
     };
 
     const sendMail = () => {

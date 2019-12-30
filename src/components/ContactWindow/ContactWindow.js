@@ -10,9 +10,9 @@ const ContactWindow = ({shrinked, minimizeFunc}) => {
     const phoneNumber = useInput('מספר טלפון*');
     const city = useInput('עיר*');
     const [messageSent, setMessageSent] = useState(0);
-    const phoneRegex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
-
-    const val = !(phoneRegex.test(phoneNumber.value)&&city.value.length>1);
+    const phoneRegex = /.*[a-zA-Z].*/;
+    const val = (phoneRegex.test(phoneNumber.value) || city.value.length === 0 || phoneNumber.value.length === 0);
+    // const val = city.value.length === 0 || phoneNumber.value.length === 0;
 
     const sendMail = () => {
         if (messageSent === 0) {
