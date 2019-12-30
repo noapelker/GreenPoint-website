@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'assistantregular';
+    src: url('fonts/assistant-regularAssistant.eot');
+    src: url('fonts/assistant-regularAssistant.eot?#iefix') format('embedded-opentype'),
+    url('fonts/assistant-regularAssistant.woff2') format('woff2'),
+    url('fonts/assistant-regularAssistant.woff') format('woff'),
+    url('fonts/assistant-regularAssistant.ttf') format('truetype'),
+    url('fonts/assistant-regularAssistant.svg#assistantregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

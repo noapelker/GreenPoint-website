@@ -1,0 +1,345 @@
+.slide {
+    background-color: white !important;
+    height: 60vh !important;
+    object-fit: contain;
+    align-items: center;
+}
+
+.carousel .slide img {
+    height: 300px !important;
+    width: 200px !important;
+}
+
+.imageHolderPic {
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    direction: ltr;
+    align-content: center;
+
+
+}
+.roundButton{
+    height: 70px;
+    width: 170px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid darkgreen;
+    align-self: center;
+    font-size: 18px;
+
+    min-height: fit-content;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+.textPicFirst {
+    font-family: Assistant;
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: rgba(6, 6, 6, 0.75);
+}
+
+.titlePicFirst {
+    font-family: Assistant;
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: #2f2f2f;
+
+
+}
+
+.PicContainerRow {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    z-index: 4;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    position: relative;
+    padding-right: 5%;
+    padding-left: 10%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+.PicContainerCol {
+    width: 100%;
+    height: 70vh;
+    align-content: center;
+    align-self: center;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    align-items: center;
+    object-fit: contain;
+    padding-top: 0px;
+    z-index: 2;
+    padding-left: 5%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    padding-right: 5%;
+    padding-bottom: 40px;
+}
+
+.PicContainerRowR {
+    width: 100%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: baseline;
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+.ItemsSmall {
+    align-self: center;
+    height: 180px;
+    z-index: 3;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+.ItemsSmall2 {
+    align-self: center;
+    object-fit: contain;
+    height: 220px;
+    z-index: 3;
+
+}
+
+.Items {
+    align-self: center;
+    height: 350px;
+    object-fit: contain;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+    z-index: 3;
+
+}
+.ItemsSwitch {
+    align-self: center;
+    height: 320px;
+    object-fit: contain;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+    z-index: 3;
+
+}
+
+.ItemsI {
+    align-self: center;
+    height: 40vh;
+    object-fit: contain;
+    z-index: 3;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+
+}
+
+.ImageHoldI {
+    height: 350px;
+    z-index: 3;
+    align-self: flex-end;
+    object-fit: contain;
+}
+
+.ImageHoldS {
+    height: 150px;
+    z-index: 3;
+    align-self: flex-end;
+    object-fit: contain;
+}
+
+.ImageHold {
+    height: 250px;
+    z-index: 3;
+    align-self: flex-end;
+    object-fit: contain;
+}
+
+.carousel .control-next.control-arrow, .carousel .control-prev.control-arrow {
+    height: 50px;
+    top: 80%;
+}
+
+.carousel .slide .legend {
+    width: 50% !important;
+    left: 25% !important;
+    margin-left: 0px !important;
+}
+
+.titlePic {
+    font-family: Assistant;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: -50px;
+
+    align-self: center;
+    direction: rtl;
+    width: 80%;
+    color: #004800;
+
+}
+
+.textPic {
+    font-family: Assistant;
+    text-align: center;
+    width: 60%;
+    align-self: center;
+    direction: rtl;
+    font-size: 1.2em;
+    object-fit: contain;
+    color: #4e4e4e;
+
+}
+
+.carousel .control-next.control-arrow {
+    right: 25% !important;
+}
+
+.carousel .control-next.control-arrow:before {
+    border-left: 8px solid black !important;
+}
+
+.control-prev.control-arrow:before {
+    border-right: 8px solid black !important;
+
+}
+
+.carousel .control-prev.control-arrow {
+    left: 25% !important;
+}
+
+.rowStart {
+    width: 100%;
+    padding-bottom: 2%;
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    direction: ltr;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.switches{
+    width:60%;
+}
+@media only screen and (max-width: 768px) {
+    .textPicFirst {
+        z-index: 3;
+        text-align: center;
+        font-size: 4.5vw;
+    }
+    .roundButton{
+        height: 45px;
+        border: 1.5px solid darkgreen;
+        width: 45px;
+        border-radius:100%;
+        font-size: 25px;
+
+    }
+.switches{
+    width:100%;
+}
+    .PicContainerRow {
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+    .ItemsSwitch{
+        height: 30vw;
+
+    }
+
+    .PicContainerCol {
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .PicContainerRowR {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+    .titlePicFirst {
+        font-size: 5.5vw;
+
+    }
+
+
+    .titlePic {
+
+        width: 80%;
+        font-size: 6vw;
+
+
+    }
+
+    .textPic {
+        text-align: center;
+        width: 90%;
+        align-self: center;
+        direction: rtl;
+        flex: 1;
+        font-size: 4.1vw;
+    }
+
+    .rowStart {
+        width: 0px;
+        opacity: 0;
+        height: 0px;
+
+    }
+
+    .ItemsSmall {
+        height: 25vw;
+        margin-left: 0;
+    }
+
+    .ItemsSmall2 {
+        height: 25vw;
+        margin-left: 0;
+
+    }
+
+    .Items {
+        height: 50vw;
+
+    }
+
+    .ItemsI {
+        height: 60vw;
+
+
+    }
+
+    .ImageHoldI {
+        object-fit: contain;
+    }
+
+    .ImageHoldS {
+        object-fit: contain;
+    }
+
+    .ImageHold {
+        object-fit: contain;
+    }
+
+
+}

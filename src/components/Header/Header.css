@@ -1,0 +1,94 @@
+.container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 70%;
+    min-width: 650px;
+    z-index: 10;
+}
+
+.header_title {
+    display: flex;
+    height: 90%;
+    width: 100%;
+    flex-direction: row-reverse;
+    padding-right: 20px;
+}
+
+.gp_logo {
+    margin-top: 5px;
+    height: 85%;
+    max-width: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.drawer_root {
+    max-width: 80vw;
+    min-width: 200px;
+    min-height: 100vh;
+    background-color: #373a47;
+}
+
+.drawer_list {
+    list-style: none;
+    width: 100%;
+    color: white;
+    padding: 30px 0 0;
+    margin: 0;
+}
+
+.drawer_list.sub {
+    padding: 0;
+}
+
+.drawer_item {
+    font-weight: 400;
+    cursor: pointer;
+    display: block;
+    padding: 8px 16px;
+    height: 30px;
+}
+
+.drawer_item.sub {
+    z-index: 10;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.header_main_root {
+    position: fixed;
+    right: 0;
+    left: 0;
+    pointer-events: none;
+    top: 0;
+    display: flex;
+    z-index: 10;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header_root {
+    width: 100%;
+    transition: height 0.2s ease-out;
+    z-index: 10;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 10px 10px 10px 0;
+    pointer-events: all;
+}
+
+.header_root.shrinked {
+    background-color: white;
+    border-bottom: 1px solid;
+    height: 50px;
+    z-index: 12;
+}
+
+@media only screen and (max-width: 950px) {
+    .header_title {
+        flex-direction: row;
+        padding-right: 0;
+    }
+}

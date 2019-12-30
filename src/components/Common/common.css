@@ -1,0 +1,646 @@
+.page_top_root {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    alignment: center;
+    align-content: center;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+}
+
+.picClass {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-content: center;
+    vertical-align: center;
+
+}
+
+.appIconRow {
+    width: 100%;
+    height: fit-content;
+    flex-direction: row-reverse;
+    display: flex;
+    padding-right: 5vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5vw;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.appIconHolder {
+    width: 100%;
+
+    min-height: 30vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: fit-content;
+
+}
+
+.AppIcon {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    height: fit-content;
+    max-height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.appIconImage {
+    max-height: 80px;
+    flex: 1;
+    object-fit: contain;
+    min-height: 80px;
+    padding-bottom: 20px;
+    align-content: baseline;
+}
+
+#imageLarge {
+    width: 0%;
+
+}
+
+.blackImage {
+
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    boxShadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.appFront {
+    margin-right: 15vw;
+    margin-left: 2vw;
+    z-index: 0;
+
+    height: fit-content;
+    max-height: 650px;
+    object-fit: contain;
+}
+
+.AppText {
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    word-break: break-word;
+    display: block;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: grey;
+    font-size: 1em;
+}
+
+.page_top_img2 {
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 10vh;
+
+    object-fit: cover;
+    font-family: "object-fit: cover;";
+    font-family: Assistant;
+}
+
+.page_top_img3 {
+    width: 100%;
+    object-fit: cover;
+
+    height: 100vh;
+    margin-top: 70px;
+    font-family: Assistant;
+}
+
+.page_top_img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    font-family: "object-fit: cover;";
+    background-color: white;
+    font-family: Assistant;
+
+}
+.pageOfficeBack{
+    height: 50vh;
+}
+#titleFirst {
+    color: white;
+    font-size: 1.6em;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+
+}
+
+.aboutInfo {
+    color: white;
+    padding-left: 5%;
+    padding-right: 3%;
+    font-size: 1.2em;
+    direction: rtl;
+
+}
+
+.radioOption {
+    margin: -9px;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 11;
+}
+
+.aboutExplain {
+    color: #6e6e6e;
+    font-size: 1.1em;
+    padding-right: 1%;
+    padding-left: 10%;
+    padding-top: 10px;
+    margin-top: 7px;
+
+
+}
+
+.aboutExplainSec {
+    color: #535353;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-family: "Assistant SemiBold";
+
+}
+
+.aboutSecondInfo {
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0);
+    width: 100%;
+    padding-bottom: 20px;
+    padding-right: 2%;
+    padding-left: 2%;
+    height: 100%;
+
+}
+
+#buttonContainer {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    direction: rtl;
+    bottom: 0px;
+    justify-content: space-between;
+}
+
+.titleAbout {
+    color: #003f00;
+    display: flex;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 5%;
+    font-family: Assistant SemiBold;
+    width: 100%;
+    direction: rtl;
+    margin-bottom: 0px;;
+    font-size: 1.5em;
+
+}
+
+#lineContainer {
+    margin-right: 25%;
+
+}
+
+.features_list_root {
+}
+
+#line {
+    width: 3px;
+    background: rgba(0, 0, 0, 0.23);
+    height: 100%;
+    min-height: 500px;
+}
+
+.root_text_container {
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 100%;
+    color: #3a3a3a;
+    font-size: 1.2em;
+    padding-bottom:10vh ;
+}
+
+.page_top_bg {
+    position: absolute;
+    height: 60vh;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.page_top_bg2 {
+    position: absolute;
+    height: 40vh;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+#pano {
+    box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.5);
+}
+.allIconContainer {
+    flex: 1;
+    padding-right: 1%;
+    margin-top: 10px;
+    padding-left: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.iconRowContainer {
+    flex-direction: row-reverse;
+    height: 50%;
+    padding-right: 10%;
+    padding-left: 10%;
+
+    justify-content: space-between;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+
+}
+
+.boldAndGreen {
+    font-family: "Assistant SemiBold";
+    color: darkgreen;
+}
+
+.AdvantageTextTitle {
+    text-align: center;
+    width: content-box;
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Assistant Light";
+    font-size: 2em;
+}
+
+.title2 {
+    font-size: 2.5em;
+    padding-top: 100px;
+    align-self: center;
+    text-align: center;
+    font-family: Assistant;
+
+}
+
+.iconHolder {
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    padding-top: 50px;
+    align-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.AdvantageText {
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    word-break: break-word;
+    display: block;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: grey;
+    font-size: 1em;
+
+}
+
+.iconsAdvantage {
+    max-height: 110px;
+    flex: 1;
+    object-fit: contain;
+    min-height: 110px;
+    padding-bottom: 20px;
+    align-content: baseline;
+}
+
+.page_top_text {
+    color: #525252;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 60vh;
+    font-size: 2.5em;
+}
+.slide{
+    background-color: #cd6a51;
+}
+.page_top_textFAQ {
+    color: #666666;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 55%;
+    bottom: 35%;
+
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.page_top_textApp {
+    color: white;
+    width: fit-content;
+    padding-right: 10px;
+    align-self: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    border: 0px solid black;
+
+}
+
+.page_top_textApp2 {
+    color: white;
+    padding-right: 20px;
+    align-self: center;
+    padding-left: 20px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+
+
+}
+
+.page_top_text.panoramic {
+    right: 15%
+}
+
+#imageLarge {
+    width: 50%;
+    opacity: 0.8;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.appTitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.appContainer {
+    flex-direction: row;
+
+}
+
+.AppButtons {
+    align-self: center;
+    height: 50px;
+    display: flex;
+    margin-top: 15vh;
+    width: 320px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .root_text_container {
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 100%;
+    }
+
+    .AppButtons {
+        height: 7vh;
+        max-height: 60px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .appContainer {
+        flex-direction: column;
+        margin-top: 10px;
+
+    }
+
+    .AdvantageTextTitle {
+        margin-top: 50px;
+        font-size: 4em;
+
+    }
+
+
+    .page_top_textApp2 {
+        width: 100%;
+        font-size: 1.5em;
+
+
+    }
+
+    .page_top_textApp {
+        margin-top: -63vh;
+
+        font-size: 1.2em;
+        color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0);
+
+
+    }
+
+    .appIconRow {
+        width: 100%;
+        flex-direction: column-reverse;
+        padding-right: 1vw;
+        padding-left: 1vw;
+        justify-content: center;
+        padding-top: 0px;
+    }
+
+    .appTitle {
+        width: 100%;
+        height: 100vh;
+        justify-content: space-between;
+
+    }
+
+    .appIconHolder {
+        width: 100vw;
+        height: fit-content;
+
+    }
+
+    .appFront {
+        margin-right: 0px;
+
+        align-self: center;
+        top: 31vh;
+        bottom: 2vh;
+        text-align: right;
+        direction: ltr;
+        max-height: 75vh;
+        position: absolute;
+    }
+
+    .AppText {
+        text-align: center;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        word-break: break-word;
+        display: block;
+        padding-right: 10%;
+        padding-left: 10%;
+        color: grey;
+        font-size: 1em;
+    }
+
+    .AppIcon {
+        width: 80vw;
+        margin-right: 10vw;
+        margin-left: 10vw;
+        padding-top: 20px;
+
+    }
+
+    .appIconImage {
+        max-height: 90px;
+        min-height: 0px;
+        flex: 1;
+        object-fit: contain;
+        padding-bottom: 20px;
+        align-content: baseline;
+    }
+
+    .allIconContainer {
+        width: 70vw;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .page_top_img2 {
+        margin-top: 20vh;
+        height: auto;
+    }
+
+    .iconRowContainer {
+        flex-direction: column;
+
+    }
+
+    .iconHolder {
+        padding-top: 5%;
+    }
+
+    .page_top_img, .page_top_bg {
+        height: 45vh;
+    }
+
+    .radioOption {
+        margin: -7px;
+        padding: 0;
+        width: 15px;
+        height: 15px;
+    }
+
+    #titleFirst {
+        font-size: 20px;
+        margin-bottom: 0px;
+
+    }
+
+    #lineContainer {
+        margin-right: 5%;
+
+    }
+
+    #imageLarge {
+        width: 0px;
+        height: 0px;
+    }
+
+    .aboutSecondInfo #line #buttonContainer {
+        height: 300px;
+        max-height: 300px;
+
+    }
+
+    .iconHolder {
+        height: 300px;
+
+    }
+
+    .page_top_text {
+        bottom: 70vh;
+    }
+
+    .AdvantageText {
+        font-size: 1.3em;
+    }
+
+    .aboutInfo {
+        font-size: 13px;
+        padding-top: 0%;
+
+
+    }
+
+    .title2 {
+        font-size: 2em;
+
+    }
+
+    .picClass {
+        height: 270px;
+        width: 100%;
+        margin-top: 40px;
+
+    }
+
+    /*
+        .page_top_root {
+            padding-top: 20%;
+            padding-left: 10%;
+            padding-right: 10%;
+
+        }*/
+    .features_list_root {
+        width: unset;
+    }
+
+    /*
+        .page_top_img {
+            height: 100px;
+
+
+        }*/
+    .blackImage {
+        width: 100%;
+    }
+
+    /*    .page_top_text.panoramic {
+            right: 5%
+        }*/
+}

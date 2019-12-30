@@ -1,0 +1,105 @@
+.textBox{
+    width:50%;
+    left:25%;
+    height:fit-content;
+    right:25%;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:50px;
+    padding-left:50px;
+    top:50vh;
+    border-radius: 20px;
+    position:absolute;
+    background-color:rgba(255,255,255,0.7);
+}
+.OfficeTitle{
+    color: #5a5a5a;
+    width: 100%;
+    position: absolute;
+    font-size: 2.5em;
+    padding-top: 120px;
+    top: 5vh;
+    left: 0;
+    text-align: center;
+}
+.OfficeText{
+    color: #595959;
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+}
+.HotelTitle{
+    color: #003f00;
+    width: 100%;
+    font-size: 1.3em;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.HotelText{
+    color: #636363;
+    width: 100%;
+    font-size: 1em;
+    text-align: right;
+}
+.officeContainer{
+    height: 100vh;
+}
+.HotelCon{
+    flex-direction:row;
+
+
+}
+.textBoxHotel{
+    width:30%;
+    min-height:fit-content;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:50px;
+    padding-left:50px;
+    border-radius: 20px;
+    background-color:rgba(255,255,255,0.8);
+}
+@media only screen and (max-width: 1024px) {
+    .textBox{
+        width:90%;
+        left:5%;
+        right:5%;
+        padding-top:10px;
+        top: 45vh;
+        padding-bottom:10px;
+        padding-right:10px;
+        padding-left:10px;
+
+    }
+    .textBoxHotel{
+        width:95%;
+        padding-top:50px;
+        padding-bottom:50px;
+        margin-bottom: 20px;
+        padding-right:2.5%;
+        padding-left:2.5%;
+    }
+    .HotelCon{
+        flex-direction:column;
+
+    }
+    .officeContainer{
+        height: 120vh;
+    }
+    .OfficeTitle{
+        color: #5a5a5a;
+        width: 100%;
+        position: absolute;
+        font-size: 2.5em;
+        padding-top: 120px;
+        top: 0vh;
+        left: 0;
+        text-align: center;
+    }
+    .OfficeText{
+        color: #595959;
+        width: 100%;
+        font-size: 1.2em;
+        text-align: center;
+    }
+}

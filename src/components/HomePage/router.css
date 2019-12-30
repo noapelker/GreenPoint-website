@@ -1,0 +1,30 @@
+.routeSpan {
+    cursor: pointer;
+    color: #868686;
+    margin-left: 20px;
+    font-family:"Assistant Light";
+}
+
+.routeSpan:hover {
+    color: darkgreen;
+}
+
+.title, .text {
+    font-family: "Assistant Light";
+    color: white;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1.1em;
+}
+
+.icon {
+    margin-left: 15px;
+    color: #009600;
+    cursor: pointer;
+}

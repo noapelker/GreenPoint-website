@@ -1,0 +1,164 @@
+.about_section_root {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.imageHolder {
+    width: fit-content;
+    display: flex;
+    height: fit-content;
+    flex-direction: row-reverse;
+    direction: ltr;
+    align-items: center;
+    align-content: center;
+    alignment: center;
+    align-self: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 20px;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.imageLogo{
+    width: 60px;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    height:60px;
+
+}
+.box{
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+    width:250px;
+    display: flex;
+    direction: rtl;
+    flex-direction:column ;
+    margin-right: 30px;
+    height:350px;
+}
+.aboutHolder{
+    height: 100vh;
+}
+#title {
+    margin-top: 100px;
+    font-size: 2.5em;
+
+}
+.titleAboutSec{
+    color: #393939;
+    align-self: center;
+    font-size: 30px;
+}
+.textAbout{
+    color: #404040;
+    align-self: center;
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 950px) {
+    .about_section_root {
+        width: 100%;
+    }
+    .aboutHolder{
+        height: fit-content;
+    }
+
+    #title {
+        margin-top: 20px;
+        font-size: 2em;
+
+    }
+    .titleAboutSec{
+
+        font-size: 1.8em;
+    }
+    .textAbout{
+
+        font-size: 19px;
+    }
+    .box{
+        width:300px;
+        height:280px;
+        margin-right: 0px;
+
+        margin-bottom: 10px;
+    }
+
+    .imageHolder {
+        height: 90%;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        alignment: center;
+        width: 100%;
+        padding-top: 25px;
+
+    }
+
+    #crisSwi{
+
+        max-height: 150px;
+        align-self: center;
+        margin-right: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+
+
+    }
+    #switches {
+        max-height: 90px;
+        align-self: center;
+        margin-right: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 15px;
+
+    }
+    #senseIR{
+        max-height: 150px;
+        align-self: center;
+        margin-right: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+
+
+    }
+}
+
+#switches {
+    height: 40%;
+
+}
+#crisSwi{
+    height: 60%;
+    margin-right: 2%;
+
+}
+#senseIR{
+    height: 80%;
+
+
+}
+.ProductImage {
+
+    align-content: baseline;
+    justify-content: space-between;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}

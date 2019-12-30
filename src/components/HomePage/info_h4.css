@@ -1,0 +1,12 @@
+.info_title {
+    text-align: center;
+    margin: 0 0 10px;
+    color: rgba(55, 55, 55, 0.92);
+}
+.info_text {
+    text-align: center;
+    margin: 0 0 10px;
+    font-family: Assistant;
+
+    color: #373737;
+}

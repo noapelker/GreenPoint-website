@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif,"Assistant Light";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: rtl;
+    text-align: right;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+    font-family: "Assistant Light";
+}
+
+img.contain {
+    font-family: 'object-fit: contain;';
+    font-family: "Assistant Light";
+}
+
+img.cover {
+    font-family: 'object-fit: cover;';
+    font-family: "Assistant Light";
+}
+
+img.scaleDown {
+    font-family: 'object-fit: scale-down;';
+    font-family: "Assistant Light";
+}
+
+div {
+    -ms-overflow-style: none;
+}

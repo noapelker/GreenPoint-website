@@ -1,0 +1,13 @@
+.question_text {
+    margin-right: 30px;
+    align-self: center;
+    color: #4b4b4b;
+}
+.icon{
+    color: darkgreen;
+}
+@media only screen and (max-width: 950px) {
+    .question_text {
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,24 @@
+.contact_window_root {
+    min-width: 300px;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    pointer-events: all;
+    font-family: Assistant, sans-serif;
+
+}
+
+.contact_window_input {
+    margin-top: 3px;
+    font-family: Assistant, sans-serif;
+}
+
+@media only screen and (max-width: 950px) {
+    .contact_window_root {
+        width: auto;
+        right: 50px;
+        font-family: Assistant, sans-serif;
+    }
+}

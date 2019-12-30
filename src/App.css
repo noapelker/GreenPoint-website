@@ -1,0 +1,85 @@
+.App {
+    text-align: right;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255,1);
+    font-family: Assistant;}
+
+div {
+    box-sizing: border-box;
+}
+
+
+
+.flex_row {
+    display: flex;
+    width: 100%;
+}
+
+h4 {
+    font-size: 2em;
+    text-align: center;
+    margin: 1.33em 0 1.33em 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 950px) {
+    .App {
+        font-size: 15px;
+    }
+}
+
+textarea::placeholder, input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: darkgreen;
+
+    font-family: Assistant;
+    opacity: 0.9; /* Firefox */
+}
+
+.h4 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.h4.small {
+    font-size: 1.4em;
+    margin-bottom: 0;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #495057;
+    border-radius: 5px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #8b8f93;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+textarea {
+    font-family: Assistant;
+}
+
+input {
+    font-family: Assistant;
+}
+
+#element::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
