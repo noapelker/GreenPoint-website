@@ -18,7 +18,7 @@ const ContactWindow = ({shrinked, minimizeFunc}) => {
         if (messageSent === 0) {
             setMessageSent(1);
             fetch(
-                'https://baloofeathers.herokuapp.com/contact', {
+                'https://gpleadsdb.herokuapp.com/contact', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -27,7 +27,8 @@ const ContactWindow = ({shrinked, minimizeFunc}) => {
                         name: name.value,
                         email: email.value,
                         phone: phoneNumber.value,
-                        message: ''
+                        message: '',
+                        city: city.value
                     })
                 }
             ).then(() => {

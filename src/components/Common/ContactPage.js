@@ -28,7 +28,7 @@ const ContactPage = () => {
         if (messageSent === 0) {
             setMessageSent(1);
             fetch(
-                'https://baloofeathers.herokuapp.com/contact', {
+                'https://gpleadsdb.herokuapp.com/contact', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -37,7 +37,8 @@ const ContactPage = () => {
                         name: name.value,
                         email: email.value,
                         phone: phoneNumber.value,
-                        message: message.value
+                        message: message.value,
+                        city: city.value
                     })
                 }
             ).then(() => {
