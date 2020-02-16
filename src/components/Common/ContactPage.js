@@ -96,9 +96,8 @@ const ContactPage = () => {
                     }}>
                         <LargeScreen>
                             <div style={{display: 'flex', marginTop: 10, width: '100%'}}>
-                                <input {...name} style={{width: '50%'}} type={'email'}/>
-                                <input {...city} style={{width: '50%', marginRight: 10}}
-                                       type={'tel'}/>
+                                <input {...name} style={{width: '50%'}}/>
+                                <input {...city} style={{width: '50%', marginRight: 10}} />
                             </div>
                             <div style={{display: 'flex', marginTop: 10, width: '100%'}}>
                                 <input {...email} style={{width: '50%'}} type={'email'}/>
@@ -107,9 +106,8 @@ const ContactPage = () => {
                             </div>
                         </LargeScreen>
                         <SmallScreen>
-                            <input {...name} style={{width: '100%', marginTop: 10}} type={'email'}/>
-                            <input {...city} style={{width: '100%', marginTop: 10}}
-                                   type={'tel'}/>
+                            <input {...name} style={{width: '100%', marginTop: 10}} />
+                            <input {...city} style={{width: '100%', marginTop: 10}} />
                             <input {...email} style={{width: '100%', marginTop: 10}} type={'email'}/>
                             <input {...phoneNumber} style={{width: '100%', marginTop: 10}}
                                    type={'tel'}/>

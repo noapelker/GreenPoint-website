@@ -29,6 +29,7 @@ import HotelPage from "./components/Hotel/HotelPage";
 import OfficePage from "./components/Hotel/OfficePage";
 import objectFitImages from 'object-fit-images';
 import LocationListener from "./components/Common/LocationListener";
+import PrivacyPage from "./components/PrivacyPage";
 
 library.add(faQuoteRight, faPlus, fab, faPaperPlane, faBars, faWindowClose, faPhone, faArrowCircleDown, faArrowCircleUp, faMinusSquare);
 
@@ -75,6 +76,7 @@ class App extends Component {
                                     <Route exact path='/hotel' component={HotelPage}/>
                                     <Route exact path='/office' component={OfficePage}/>
                                     <Route exact path='/home' component={IGHHome}/>
+                                    <Route exact path='/privacy' component={PrivacyPage}/>
                                     <Route path='/products' render={() => <ProductsPage
                                         shrinked={this.state.shrinked}/>}/>
                                     <Route render={() => <Redirect to="/" replace/>}/>
