@@ -5,9 +5,9 @@ import {withRouter} from "react-router-dom";
 import '../Common/common.css';
 import './products.css';
 import ScreenButton from "../Common/ScreenButton";
+import ContactPage from "../Common/ContactPage";
 
 class ProductsPage extends Component {
-
     scrollCorrectly = (hash, animated) => {
         const behavior = animated ? 'smooth' : undefined;
         if (!hash || hash.length === 0) {
@@ -55,6 +55,7 @@ class ProductsPage extends Component {
 
     render() {
         return (
+            <>
             <div style={{
                 width: '100%',
                 backgroundImage: 'url(/images/BackNew.jpg)',
@@ -261,6 +262,8 @@ class ProductsPage extends Component {
                     </div>
                 </div>
             </div>
+        <div style={{height: 0,background:'white' }}/>
+        <ContactPage/></>
         );
     }
 }

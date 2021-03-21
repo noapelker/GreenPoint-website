@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {officePreText} from "../Home/TextBlocks";
 import './AboutNEW.css';
+import ContactPage from "../Common/ContactPage";
 
 class OfficePage extends Component {
     constructor(props) {
@@ -10,6 +11,7 @@ class OfficePage extends Component {
 
     render() {
         return (
+            <>
             <div className={"officeContainer"} style={{
                 width: '100%',
                 top:0,
@@ -44,6 +46,8 @@ class OfficePage extends Component {
 
                 </div>
             </div>
+                <div style={{height: 0,background:'white' }}/>
+                <ContactPage/></>
         );
     }
 }

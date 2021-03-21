@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import QuestionAnswer from "./QuestionAnswer";
 import {questions} from './questions';
 import '../Common/common.css';
+import ContactPage from "../Common/ContactPage";
 
 class FaqPage extends Component {
     constructor(props) {
@@ -20,6 +21,7 @@ class FaqPage extends Component {
 
     render() {
         return (
+            <>
             <div style={{width: '100%', display: 'flex', flexDirection: 'column'}}>
                 <div className={'page_top_root'}>
                     <img className={'page_top_img'} src={'/images/questionBackground.jpg'} alt={''} />
@@ -47,6 +49,8 @@ class FaqPage extends Component {
                     )}
                 </div>
             </div>
+                <div style={{height: 0,background:'white' }}/>
+                <ContactPage/></>
         );
     }
 }

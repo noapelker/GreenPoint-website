@@ -1,8 +1,10 @@
 import React from 'react';
 import {privacy, data} from "./PrivacyText";
+import ContactPage from "./Common/ContactPage";
 
-const PrivacyPage = props => {
+const PrivacyPage = () => {
     return (
+        <>
         <div style={{
             display: 'flex',
             direction: 'ltr',
@@ -15,7 +17,7 @@ const PrivacyPage = props => {
 
             {data.map((item, index) => <div key={index}>
                 <h2 style={{alignSelf: 'center', textAlign: 'center'}}>{item.title}</h2>
-                {item.text.split('\n').map((item, index) => <p>{item}</p>)}
+                {item.text.split('\n').map((item) => <p>{item}</p>)}
             </div>)}
 
             <h2 style={{textAlign: 'center'}}>{privacy.title}</h2>
@@ -27,6 +29,8 @@ const PrivacyPage = props => {
             </ul>
 
         </div>
+            <div style={{height: 0,background:'white' }}/>
+            <ContactPage/></>
     );
 };
 

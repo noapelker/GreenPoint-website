@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import '../Common/common.css';
 import {hotelItems} from "./TextBlocks";
 import './AboutNEW.css';
+import ContactPage from "../Common/ContactPage";
 
 class HotelPage extends Component {
     constructor(props) {
@@ -11,6 +12,7 @@ class HotelPage extends Component {
 
     render() {
         return (
+            <>
                <div className={"officeContainer"} style={{
                    width: '100%',
                    top:0,
@@ -85,7 +87,8 @@ class HotelPage extends Component {
                    </div>
 
                </div>
-
+                <div style={{height: 0,background:'white' }}/>
+                <ContactPage/></>
         );
     }
 }

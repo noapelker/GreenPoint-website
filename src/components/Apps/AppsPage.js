@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../Common/common.css';
 import ImgWithLoader from "../Common/ImgWithLoader";
+import ContactPage from "../Common/ContactPage";
 
 class AppsPage extends Component {
     constructor(props) {
@@ -10,6 +11,7 @@ class AppsPage extends Component {
 
     render() {
         return (
+            <>
             <div>
                 <div style={{width: '100%', display: 'flex', flexDirection: 'column'}}>
                     <div style={{
@@ -104,6 +106,8 @@ class AppsPage extends Component {
                     </a>
                 </div>
             </div>
+                <div style={{height: 0,background:'white' }}/>
+                <ContactPage/></>
         );
     }
 }

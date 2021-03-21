@@ -50,7 +50,6 @@ class Header extends Component {
             }
         }
     };
-
     render() {
         return (
             <div className={'header_main_root'} style={{pointerEvents: 'none'}}>

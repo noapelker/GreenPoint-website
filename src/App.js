@@ -21,7 +21,6 @@ import {BrowserRouter, Redirect, Route, Switch} from "react-router-dom";
 import AboutPage from "./components/AboutPage/AboutPage";
 import AdvantagesPage from "./components/Advantages/AdvantagesPage";
 import FaqPage from "./components/FAQ/FaqPage";
-import ContactPage from "./components/Common/ContactPage";
 import ProductsPage from "./components/Products/ProductsPage";
 import NIY from "./components/NIY";
 import AppsPage from "./components/Apps/AppsPage";
@@ -30,6 +29,7 @@ import OfficePage from "./components/Hotel/OfficePage";
 import objectFitImages from 'object-fit-images';
 import LocationListener from "./components/Common/LocationListener";
 import PrivacyPage from "./components/PrivacyPage";
+import HighLine from "./components/highLine/HighLine";
 
 library.add(faQuoteRight, faPlus, fab, faPaperPlane, faBars, faWindowClose, faPhone, faArrowCircleDown, faArrowCircleUp, faMinusSquare);
 
@@ -74,6 +74,7 @@ class App extends Component {
                                     <Route exact path='/niy' component={NIY}/>
                                     <Route exact path='/apps' component={AppsPage}/>
                                     <Route exact path='/hotel' component={HotelPage}/>
+                                    <Route exact path='/highline' component={HighLine}/>
                                     <Route exact path='/office' component={OfficePage}/>
                                     <Route exact path='/home' component={IGHHome}/>
                                     <Route exact path='/privacy' component={PrivacyPage}/>
@@ -81,14 +82,11 @@ class App extends Component {
                                         shrinked={this.state.shrinked}/>}/>
                                     <Route render={() => <Redirect to="/" replace/>}/>
                                 </Switch>
-                                <div style={{height: 0,background:'white' }}/>
-                                <ContactPage/>
+
                             </div>
-                            <Header shrinked={this.state.shrinked}/>
+                            {window.location.pathname!=="/highline" &&<Header shrinked={ this.state.shrinked }/> }
                         </div>
                     </LocationListener>
-
-
                 </BrowserRouter>
             </div>
         );

@@ -1,0 +1,160 @@
+.highLineContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    text-align: left;
+    height: 100vh;
+    direction: ltr;
+    background: #0B0B27;
+}
+
+.logoHighLine {
+    width: 100px;
+    object-fit: contain;
+    height: 100px;
+}
+
+.formContainerParentHighLine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EAECF8;
+    border-radius: 10px;
+    padding: 30px;
+    width: calc(100% - 60px);
+}
+
+.headerHighLineContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.headerSubTextHighLine {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.headerHighLineParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.headerTextHighLine {
+    font-size: 5rem;
+    color: white;
+    margin-left: 10px;
+}
+
+.inputHighLine {
+    color: black;
+    font-size: 0.9rem;
+    margin: 8px 0;
+    text-align: right;
+    direction: rtl;
+    min-width: 100%;
+    width: fit-content;
+    min-height: 40px;
+    height: fit-content;
+    padding: 4px 8px;
+}
+.doneMessageHighLine{
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+.inputHighLineHalf {
+    font-size: 0.9rem;
+    direction: rtl;
+    color: black;
+    text-align: right;
+    min-width: calc(50% - 8px);
+    width: fit-content;
+    min-height: 40px;
+    height: fit-content;
+    padding: 4px 8px;
+
+}
+.doneMessageImage{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.inputHighLineHalf::placeholder, .inputHighLine::placeholder {
+    color: black;
+
+}
+
+.highLineFormText {
+    text-align: center;
+    white-space: pre-wrap;
+    color: #5A5E77;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.submitButtonHighLine {
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 5px;
+    background-color: #0b0c27;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.apartmentHighLineContainer {
+    display: flex;
+    margin: 8px 0;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.formContainerHighLine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    min-width: 600px;
+    max-width: 700px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.formContainerHighLine form {
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 800px) {
+    .headerTextHighLine{
+        font-size: 2rem;
+    }
+    .logoHighLine{
+        height: 40px;
+        width: 40px;
+    }
+    .formContainerHighLine{
+        min-width: calc(100vw - 30px);
+    }
+    .headerSubTextHighLine{
+        font-size: 1.2rem;
+        margin-top: -10px;
+    }
+    .formContainerParentHighLine{
+        padding: 10px;
+        width: 100%;
+    }
+    .highLineFormText{
+        font-size: 1rem;
+
+    }
+}

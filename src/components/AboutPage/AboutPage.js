@@ -4,6 +4,7 @@ import {
     aboutNew, aboutNew2
 } from "./TextBlocks";
 import '../Common/common.css'
+import ContactPage from "../Common/ContactPage";
 
 class AboutPage extends Component {
 
@@ -29,6 +30,7 @@ class AboutPage extends Component {
 
     render() {
         return (
+            <>
             <div style={{width: '100%', display: 'flex', flexDirection: 'column', height: '100%', paddingTop: '70'}}>
                 <div className={'page_top_root'} style={
                     {
@@ -208,6 +210,8 @@ class AboutPage extends Component {
 
                 </div>
             </div>
+                <div style={{height: 0,background:'white' }}/>
+                <ContactPage/></>
         );
     }
 }
