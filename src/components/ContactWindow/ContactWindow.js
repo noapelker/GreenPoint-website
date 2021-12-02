@@ -14,11 +14,12 @@ const ContactWindow = ({shrinked, minimizeFunc}) => {
     const val = (phoneRegex.test(phoneNumber.value) || city.value.length === 0 || phoneNumber.value.length === 0);
     // const val = city.value.length === 0 || phoneNumber.value.length === 0;
 
+
     const sendMail = () => {
         if (messageSent === 0) {
             setMessageSent(1);
             fetch(
-                'https://gpleadsdb.herokuapp.com/contact', {
+                'https://gpleadsdb.greenpointcloud.info/contact', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',

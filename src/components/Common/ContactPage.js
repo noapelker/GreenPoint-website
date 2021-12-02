@@ -28,7 +28,7 @@ const ContactPage = () => {
         if (messageSent === 0) {
             setMessageSent(1);
             fetch(
-                'https://gpleadsdb.herokuapp.com/contact', {
+                'https://gpleadsdb.greenpointcloud.info/contact', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',

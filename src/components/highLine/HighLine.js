@@ -6,7 +6,7 @@ import Image from "../Common/Image";
 import { highLine } from "./TextBlock"
 
 const HighLine = () => {
-    const { onSubmit ,doneMessage} = HighLineLogic();
+    const { onSubmit, doneMessage } = HighLineLogic();
     return (
         <div className={ "highLineContainer" }>
             <div className={ "formContainerHighLine" }>
@@ -18,13 +18,14 @@ const HighLine = () => {
                     <span className={ "headerSubTextHighLine" }>{ highLine.gift }</span>
                 </div>
                 <div className={ "formContainerParentHighLine" }>
-                    <span className={ "highLineFormText" }>{doneMessage|| highLine.fill }</span>
-                    { doneMessage?
-                        <Image className={"doneMessageImage"} src={doneMessage===highLine.errorMessage?"errorMessage.svg":"submitMessage.svg"}/>:
+                    <span className={ "highLineFormText" }>{ doneMessage || highLine.fill }</span>
+                    { doneMessage ?
+                        <Image className={ "doneMessageImage" }
+                               src={ doneMessage === highLine.errorMessage ? "errorMessage.svg" : "submitMessage.svg" }/> :
                         <HighLineForm onSubmit={ onSubmit }/> }
                 </div>
-                <div className={"highLineMessage"}>
-                    <span className={"doneMessageHighLine"}>{doneMessage}</span>
+                <div className={ "highLineMessage" }>
+                    <span className={ "doneMessageHighLine" }>{ doneMessage }</span>
 
                 </div>
             </div>

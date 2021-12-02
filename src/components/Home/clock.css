@@ -48,7 +48,7 @@
   .indicator {
     border-radius: 10px;
     transform-origin: bottom;
-    outline: 1px solid transparent; // Firefox fix on rotation
+    outline: 1px solid transparent;
     position: absolute;
     bottom: 50%;
     transition-duration: 1s;

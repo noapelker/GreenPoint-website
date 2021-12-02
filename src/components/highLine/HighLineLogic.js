@@ -5,7 +5,7 @@ const HighLineLogic = () => {
     const [doneMessage,setDoneMessage]=useState(undefined);
     const onSubmit = (body) => {
         fetch(
-            'https://gpleadsdb.herokuapp.com/contact', {
+            'https://gpleadsdb.greenpointcloud.info/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
